@@ -28,4 +28,4 @@ jobs:
           
           git add log.txt
           git commit -m "Update log file with new timestamp" || echo "No changes to commit"
-          git push https://github-actions:${{ secrets.GITHUB_TOKEN }}@github.com/ARobeeHerrera/LinuxEssential.git  
+          git push https://github-actions:${{ secrets.GITHUB_TOKEN }}@github.com/ARobeeHerrera/LinuxEssential1.git  
