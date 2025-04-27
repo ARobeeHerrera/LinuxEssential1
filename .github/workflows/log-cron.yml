@@ -18,7 +18,7 @@ jobs:
       - name: Run logging script
         run: |
           chmod +x log_time.sh
-          log_time.sh
+          ./log_time.sh
 
       - name: Commit and push changes
         run: |
