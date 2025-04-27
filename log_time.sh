@@ -10,3 +10,4 @@ if [ ! -f log.txt ]; then
 else 
     update_count=$(wc -1 < log.txt)
     echo "Log Update #$update_count: $current_time by $GITHUB_USER" >> log.txt
+fi
